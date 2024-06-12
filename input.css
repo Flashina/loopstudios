@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.item-container {
+    @apply flex flex-col justify-between w-full space-y-6 text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8
+}
+
+
 #hero {
     background-image: url("../images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
